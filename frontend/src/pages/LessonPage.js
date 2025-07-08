@@ -1,4 +1,8 @@
-function LessonsPage() {
+// src/pages/LessonsPage.js
+
+import React from 'react';
+
+const LessonsPage = () => {
   const lessons = [
     { id: 1, title: "Introduction to Python", description: "Variables, data types, and basic syntax." },
     { id: 2, title: "Control Flow", description: "if, else, loops and logic" },
@@ -17,6 +21,6 @@ function LessonsPage() {
       ))}
     </div>
   );
-}
+};
 
 export default LessonsPage;
